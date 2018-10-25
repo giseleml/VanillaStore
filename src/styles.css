@@ -1,0 +1,59 @@
+.navbar {
+  width: auto;
+  height: 5.5rem;
+  background-image: linear-gradient(150deg, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+  text-align: center;
+}
+.navbar li {
+  font-size: 2.5rem;
+  font-family: 'Amatic SC', cursive;
+  text-decoration: none;
+  display: inline-flex;
+  padding-left: 5rem;
+  padding-top: 1.5rem;
+}
+.navbar li:hover{
+  transform: rotate(-20deg);
+  color: rgb(255, 112, 77);
+}
+
+.header h1 {
+  font-family: 'Forum', cursive;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 0px 7px rgb(255, 230, 255);
+}
+.header h3 {
+  font-family: 'Forum', cursive;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.grid img{
+height: 20rem;
+width: 20rem;
+margin-left: 10rem;
+box-shadow: 2px 2px 25px rgb(255, 112, 77);
+}
+.grid img:hover{
+  outline-style: dotted;
+  outline-color: white;
+  opacity: 0.8;
+}
+
+@media screen and (max-width:900px) {
+  .navbar{
+    height: 10rem;
+  }
+  .navbar li{
+    padding-left: 2rem;
+    font-size: 3rem;
+  }
+  .header h3{
+    font-size: 1.5rem;
+  }
+  .grid img{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+  }
+}
